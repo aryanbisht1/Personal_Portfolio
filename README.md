@@ -1,2 +1,2 @@
 # Personal_Portfolio
-This is a my portfolio that I created by only using HTML and CSS.
+This is my personal portfolio that I created over a winter break in my freshmen year using html and css. Since then I have updated this portfolio to quite an extent. 
