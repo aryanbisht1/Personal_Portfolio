@@ -1,0 +1,335 @@
+body{
+    margin:0px;
+}
+
+/*body-header*/
+#body-header{
+    margin-top: -17px;
+    background-image: url(pexels-ken-tomita-389819.jpg);
+    height:65vh;
+    background-size: cover;
+    background-position: center;
+    opacity:0.8;
+    background-attachment: fixed;
+}
+
+/*navigation-bar*/
+
+#Nav-bar li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;    
+}
+
+#Nav-bar li a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+#Nav-bar li a:hover{
+    
+    color: grey;
+    border-bottom: 1px solid white;
+    transition: color 0.5s;
+    
+}
+#body-header h1{
+    color: white;
+    font-size: 70px;
+    text-align:center;
+    margin-top: 300px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+#social-media li{
+    padding:10px;
+    list-style: none;
+    display: inline-block;
+    margin: 18px;
+    font-size: 40px;
+    position: relative;
+    right:35px;
+    border-radius: 30%;
+}
+
+#social-media li a i:hover{
+    box-shadow: 0px 0px 6px 4px white;
+}
+
+/*About Section with my image*/
+
+#my-image{
+    height:18rem;
+    width:18rem;
+    margin:auto;
+    position: relative;
+    margin-top: -100px;
+    
+}
+
+#my-image img{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+
+
+#about b{
+    color:#595959;
+}
+
+#about p{
+    text-align: center;
+    margin: 100px 250px 80px 250px;
+    font-size: 30px;
+    color:darkgray;
+}
+
+
+/* Using Flex*/
+
+
+section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:15px;
+}
+
+section:nth-child(2n){
+    background-color: #e6e6e6;
+}
+
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+/*SKILLS SECTION*/
+
+.section-heading{
+    width:auto;
+    padding: 20px 20px 10px;
+    margin:10px auto;
+    font-weight: 400;
+    
+
+}
+
+.section-heading span{
+    font-size:40px;
+    color:#2857a4;
+    display:inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display{
+    width:70%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-progress{
+    margin: 40px;
+    width:7rem;
+    height:1.6rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    background-color:white;
+    border: 2px solid black;
+}
+
+.eighty-five-percent{
+    width:85%;
+    height: inherit;
+    background-color:lightblue;
+    font-size: 20px;
+    padding-left: 3px;
+    border-radius: 0.8rem;
+}
+
+.seventy-percent{
+    width:70%;
+    background-color:lightblue;
+    border-radius: 0.8rem;
+    font-size:20px;
+    height: inherit;
+    padding-left: 3px;
+}
+
+.sixty-percent{
+    width:60%;
+    background-color:lightblue;
+    border-radius: 0.8rem;
+    font-size:20px;
+    height: inherit;
+    padding-left: 3px;
+}
+
+
+
+/*Work Experience*/
+#experience p{
+    font-size: 22px;
+    color:grey;
+    
+
+
+}
+
+
+
+
+/*Contact me section*/
+
+#Main-contact{
+    display: flex;
+    width:100%;
+    height:inherit;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content:space-around;
+    background-color: transparent;
+}
+
+#contact{
+    background-image:linear-gradient(to top right, #2857a4,#403066 80%);
+    height:600px;
+}
+
+#contact-header span,h3{
+    display:inline-block;
+    font-size: 40px;
+    margin:20px;
+    color: white;
+}
+
+
+#contact-input{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width:300px;
+    height:440px;
+    margin-right: 25%;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+#contact-input input,textarea {
+    display: inline-block;
+    padding: 6px;
+    margin:10px;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    width:auto;
+    
+}
+
+
+
+#contact-input button{
+    width:auto;
+    padding:5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    Width:60%;
+    margin-left: 90px;
+
+}
+
+#contact-input ::placeholder { 
+  color: white;
+}
+
+#Get-in-touch{
+    background-color: transparent;
+    width:30%;
+    background-color: transparent;
+    color:white;
+    display: inline-block;
+    
+}
+
+#My-address{
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+/*    margin: 80px;*/
+}
+
+#My-address i{
+    margin: 5px;
+   
+}
+
+
+/*Work Experience Section*/
+
+
+.timeline{
+    position:relative;
+    width:75%;
+    border: 2px solid black;    
+}
+
+
+.timeline-box{
+    position:relative;
+    width:40%;
+    left:5%;
+    border: 2px solid black;
+    min-height: 150px;
+    margin:5px;
+    
+}
+
+
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+
+.timeline-divider{
+    position:absolute;
+    height:75%;
+    width:0;
+    border: 1px dashed grey;
+    top:10%;
+    left:50%;
+}
+
+.plane{
+    position: sticky;
+    top:25%;
+    transform: rotate(90deg);
+    
+}
+
+
+
+
+
+
+
